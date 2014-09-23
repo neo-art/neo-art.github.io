@@ -1,9 +1,9 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SOLID.
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-baseurl: "/bestbg-jekyll" #important: start with /
+title: BestBG
+description: "We offer a wide range of WordPress services, including WordPress installation and maintenance, WordPress Speed optimization, WordPress site transfers and more."
+baseurl: "" #important: start with /
 url: "http://yourdomain.com"
 
 # Build settings
@@ -42,7 +42,7 @@ address:
     - Some Ave, 987,
     - 23890, New York,
     - United States.
-email: hello@solidtheme.com
+email: hello@bestbg.com
 tel: +34 8493-4893
 
 
