@@ -1,10 +1,10 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: BestBG
+title: WordPress Site Transfer and Installation Services
 description: "We offer a wide range of WordPress services, including WordPress installation and maintenance, WordPress Speed optimization, WordPress site transfers and more."
 baseurl: "" #important: start with /
-url: "http://yourdomain.com"
+url: "http://bestbg.com"
 
 # Build settings
 markdown: kramdown
@@ -25,16 +25,12 @@ colors:  #in hex code if not noted else
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  - title: dribbble
-    url:
+  - title: google-plus
+    url: https://www.google.com/+Canexo_com
   - title: facebook
-    url:
+    url: https://www.facebook.com/canexo.web
   - title: twitter
-    url: 
-  - title: instagram
-    url: 
-  - title: tumblr
-    url: 
+    url: https://twitter.com/canexo_com
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
