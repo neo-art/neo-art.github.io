@@ -244,11 +244,11 @@ a:focus {
 	margin-bottom: 80px;
 }
 
-#service i {
+/* #service i {
 	color: {{ site.colors.primary }};
-	font-size: 30px;
+	font-size: 60px;
 	padding: 15px;
-}
+} */
 
 /* Portfolio Wrap */
 #portfoliowrap {
@@ -744,10 +744,10 @@ csmall {
     font-weight: 700;
 }
 
-/* .w i {
-    color: #4D9C2F;
-    font-size: 30px;
-} */
+.w i {
+    color: {{ site.colors.primary }};
+    font-size: 40px;
+}
 
 
 .wb {
