@@ -1,10 +1,10 @@
-<div id="cwrap">
+<div id="lg">
     <div class="container">
         <div class="row centered">
-            <h3>OUR CLIENTS</h3>
+            <h3>OUR AWESOME CLIENTS</h3>
             {% for client in site.clients %}
-                <div class="col-lg-3 col-md-3 col-sm-3">
-                    <img src="{{ "/assets/img/clients/" | prepend: site.baseurl }}{{ client.img }}" class="img-responsive">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <img class="center-block" src="{{ "/assets/img/clients/" | prepend: site.baseurl }}{{ client.img }}" class="img-responsive">
                 </div>
             {% endfor %}
         </div><! --/row -->
