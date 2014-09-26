@@ -1,29 +1,54 @@
-<div id="footerwrap">
+    <!-- FOOTER -->
+<div id="footer">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <h4>About</h4>
-                <div class="hline-w"></div>
-                <p>{{ site.about }}</p>
+            <div class="col-lg-2 col-lg-offset-1">
+                <h4>Services</h4>
+                <ul class="list-unstyled">
+                <li><a href="wordpress-services.html#prices">WordPress Installation</a></li>
+                <li><a href="wordpress-services.html#prices">Wordpress Site Transfer</a></li>
+                <li><a href="wordpress-services.html#prices">Wordpress Speed Optimization</a></li>
+                <li><a href="wordpress-services.html">WordPress Site Maintenance</a></li>
+                <li><a href="wordpress-services.html">WordPress E-commerce</a></li>
+                <li><a href="wordpress-services.html">Wordpress CDN Setup</a></li>
+                <li><a href="wordpress-services.html">Wordpress Security Audit</a></li>
+                </ul>
             </div>
-            <div class="col-lg-4">
-                <h4>Social Links</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for network in site.social %}
-                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
-                    {% endfor %}
-                </p>
+
+            <div class="col-lg-2">
+                <h4>Resources</h4>
+                <ul class="list-unstyled">
+                <li><a href="http://ghost.bestbg.com/monetizing-your-ghost-blog/">Monetizing your Ghost blog</a></li>
+                <li><a href="http://ghost.bestbg.com/free-themes-for-ghost-blogging-platform/">Free Themes for Ghost</a></li>
+                <li><a href="http://ghost.bestbg.com/how-to-install-ddos-deflate-on-debian-7-wheezy-ubuntu/">Install (D)DoS Deflate</a></li>
+                </ul>
             </div>
-            <div class="col-lg-4">
-                <h4>Our Bunker</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for line in site.address.first.lines %}
-                        {{ line }} <br>
-                    {% endfor %}
-                </p>
+
+            <div class="col-lg-2">
+                <h4>Quick links</h4>
+                <ul class="list-unstyled">
+                <li><a href="http://bestbg.com/">Home Page</a></li>
+                <li><a href="wordpress-services.html">Our Services</a></li>
+                <li><a href="wordpress-clients.html">Recent Works</a></li>
+                <li><a href="https://bestbg.uservoice.com/" target="_blank" rel="nofollow">Contact Support</a></li>
+                <li><a href="http://ghost.bestbg.com/">Bestbg Blog</a></li>
+                <li><a href="https://bestbg.uservoice.com/knowledgebase" target="_blank" rel="nofollow">FAQ</a></li>
+                </ul>
             </div>
-        </div><! --/row -->
-    </div><! --/container -->
-</div><! --/footerwrap -->
+
+            <div class="col-lg-2">
+                <h4>Follow us on</h4>
+                <ul class="list-unstyled">
+                <li><a href="https://www.facebook.com/canexo.web" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></li>
+                <li><a href="https://www.google.com/+Canexo_com" target="_blank"><i class="fa fa-google-plus"></i> Google+</a></li>
+                <li><a href="https://twitter.com/canexo_com" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-2">
+                <h4>We Accept</h4>
+                    <img src="assets/img/PayPal.png" alt="PayPal" title="PayPal">&nbsp;&nbsp;<img src="assets/img/Visa.png" alt="Visa" title="Visa through PayPal"><br /><br />
+                    <img src="assets/img/Skrill.png" alt="Skrill" title="Skrill">&nbsp;&nbsp;<img src="assets/img/MasterCard.png" alt="MasterCard" title="MasterCard through PayPal"><br /><br />
+                    <img src="assets/img/American-Express.png" alt="American Express" title="American Express through PayPal">&nbsp;&nbsp;<img src="assets/img/Discover.png" alt="Discover" title="Discover through PayPal"><br />
+            </div>
+    </div><!-- container -->
+</div><!-- Footer -->
