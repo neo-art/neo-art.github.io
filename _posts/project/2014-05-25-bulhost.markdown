@@ -1,0 +1,23 @@
+---
+layout: project
+title:  "BULHOST"
+date:   2014-05-25 16:54:46
+author: Bestbg
+categories:
+- project
+img: Bulhost-1.png
+thumb: thumb02.jpg
+carousel:
+- Bulhost-1.png
+- single02.jpg
+- single03.jpg
+client: BulHost
+website: http://www.bulhost.com/web/
+---
+####Bulhost - Web Hosting, Domain Names, eCommerce Services
+Corporate Wordpress based web site of a company with over 10 years experience on the Hosting market, offering a large scale of Web hosting solutions, Domain registration and eCommerce services.
+
+####Services Provided
+WordPress Speed Optimization\\
+Social Media Integration\\
+Technical SEO

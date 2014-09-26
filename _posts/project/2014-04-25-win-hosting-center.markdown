@@ -1,21 +1,21 @@
 ---
 layout: project
-title:  "BulHost"
-date:   2014-05-25 16:54:46
-author: Marcel Newman
+title:  "WIN HOSTING CENTER"
+date:   2014-04-25 16:54:46
+author: Bestbg
 categories:
 - project
-img: Bulhost-1.png
+img: WHC-1.png
 thumb: thumb02.jpg
 carousel:
-- Bulhost-1.png
+- WHC-1.png
 - single02.jpg
 - single03.jpg
-client: Wonder Corp.
-website: http://blacktie.co
+client: Win Hosting Center
+website: http://www.winhostingcenter.com/
 ---
 ####YOUR PROJECT NAME
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
 
-####Our Proposal
+####Services Provided
 It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
