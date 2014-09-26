@@ -1,14 +1,14 @@
 ---
 layout: project
-title:  "PROJECT NAME 2"
-date:   2014-04-25 16:54:46
+title:  "BulHost"
+date:   2014-05-25 16:54:46
 author: Marcel Newman
 categories:
 - project
-img: portfolio_09.jpg
+img: Bulhost-1.png
 thumb: thumb02.jpg
 carousel:
-- single01.jpg
+- Bulhost-1.png
 - single02.jpg
 - single03.jpg
 client: Wonder Corp.

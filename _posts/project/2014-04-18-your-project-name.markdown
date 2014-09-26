@@ -1,14 +1,14 @@
 ---
 layout: project
-title:  "YOUR PROJECT NAME"
+title:  "WHC"
 date:   2014-04-25 16:54:46
 author: Marcel Newman
 categories:
 - project
-img: portfolio_07.jpg
+img: WHC-1.png
 thumb: thumb02.jpg
 carousel:
-- single01.jpg
+- WHC-1.png
 - single02.jpg
 - single03.jpg
 client: Wonder Corp.

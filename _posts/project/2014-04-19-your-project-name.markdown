@@ -1,14 +1,14 @@
 ---
 layout: project
-title:  "YOUR PROJECT NAME"
-date:   2014-04-25 16:54:46
+title:  "FIND HOTEL"
+date:   2014-02-25 16:54:46
 author: Marcel Newman
 categories:
 - project
-img: portfolio_06.jpg
+img: FINDHOTEL-1.png
 thumb: thumb02.jpg
 carousel:
-- single01.jpg
+- FINDHOTEL-1.png
 - single02.jpg
 - single03.jpg
 client: Wonder Corp.
