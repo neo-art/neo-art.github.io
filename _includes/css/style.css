@@ -240,8 +240,8 @@ a:focus {
 
 /* Services Wrap */
 #service {
-	margin-top: 100px;
-	margin-bottom: 80px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 
 /* #service i {
@@ -252,8 +252,8 @@ a:focus {
 
 /* Portfolio Wrap */
 #portfoliowrap {
-	padding-top: 60px;
-	margin-bottom: 60px;
+	padding-top: 10px;
+	margin-bottom: 10px;
 	display: block;
 	text-align: center
 }
