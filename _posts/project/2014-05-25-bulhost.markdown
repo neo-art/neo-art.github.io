@@ -6,11 +6,11 @@ author: Bestbg
 categories:
 - project
 img: Bulhost-1.png
-thumb: thumb02.jpg
+thumb: Bulhost-thumb01.jpg
 carousel:
-- Bulhost-1.png
-- single02.jpg
-- single03.jpg
+- Bulhost-single1.jpg
+- Bulhost-single2.jpg
+- Bulhost-single3.jpg
 client: BulHost
 website: http://www.bulhost.com/web/
 ---

@@ -6,11 +6,11 @@ author: Bestbg
 categories:
 - project
 img: FASHIONCHAT-1.png
-thumb: thumb02.jpg
+thumb: Fashionchat-thumb01.jpg
 carousel:
-- FASHIONCHAT-1.png
-- FASHIONCHAT-1.png
-- FASHIONCHAT-1.png
+- Fashionchat-single1.jpg
+- Fashionchat-single2.jpg
+- Fashionchat-single3.jpg
 client: Fashion Chat
 website: http://fashionchat.info/
 ---
