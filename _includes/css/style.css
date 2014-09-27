@@ -13,6 +13,10 @@
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
 
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
@@ -22,27 +26,33 @@
 	} 
 
 body { 
-	background: #ffffff; 
+	background: #f2f2f2; 
 	margin: 0;
 	height: 100%;
 	line-height: 150%; 
-	color: {{ site.colors.secondary }};
+	color: #555;
 	font-family: 'Lato', sans-serif;
-	font-weight: 400;
+	font-weight: 300;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+  margin-top: 70px;
 	}
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
+  font-weight: 300;
+  color: #333;
 }
 
 p { 
 	padding: 0; 
-	margin-bottom: 12px; 
+	margin-bottom: 25px; 
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	font-size: 14px; 
-	line-height: 24px;
+	line-height: 28px;
 	color: {{ site.colors.secondary }}; 
 	margin-top: 10px; 
 }
@@ -386,9 +396,9 @@ a:focus {
 /* General Tweaks */
 
 #blue {
-	background: {{ site.colors.primary }};
-	margin-top: 60px;
-	margin-bottom: 60px;
+	background: #255F8F;
+	margin-top: 80px;
+	margin-bottom: 80px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
@@ -680,11 +690,11 @@ csmall {
 
 /* Blue Wrap */
 
-#blue {
+/* #blue {
     background: #255F8F;
     padding-top: 35px;
     padding-bottom: 35px;
-}
+} */
 
 #blue h4 {
     color: white;
@@ -816,7 +826,7 @@ csmall {
     text-align: center;
     font-weight: bold;
 
-    padding: 40px 20px 30px 20px;
+    padding: 60px 20px 30px 20px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -843,7 +853,9 @@ csmall {
     text-transform: uppercase;
     display: block;
     font-size: 25px;
-    letter-spacing: 8px;
+    letter-spacing: 10px;
+    padding-bottom: 80px;
+    line-height: 120%;
 }
 
 .pricing-option .price {
@@ -853,7 +865,7 @@ csmall {
 
 .pricing-option .price sup {
     position: absolute;
-    top: 50px;
+    top: 0;
     left: 20px;
     font-size: 24px;
 }
