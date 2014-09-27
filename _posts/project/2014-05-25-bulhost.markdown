@@ -15,7 +15,7 @@ client: BulHost
 website: http://www.bulhost.com/web/
 ---
 ####Bulhost - Web Hosting, Domain Names, eCommerce Services
-Corporate Wordpress based web site of a company with over 10 years experience on the Hosting market, offering a large scale of Web hosting solutions, Domain registration and eCommerce services.
+Corporate Wordpress based web site of a company with over 12 years experience on the Hosting market, offering a large scale of Web hosting solutions, Domain registration and eCommerce services.
 
 ####Services Provided
 WordPress Speed Optimization\\

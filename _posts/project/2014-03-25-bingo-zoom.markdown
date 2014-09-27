@@ -1,16 +1,16 @@
 ---
 layout: project
-title:  "Bingo Zoom"
+title:  "BINGO ZOOM"
 date:   2014-03-25 16:54:46
 author: Bestbg
 categories:
 - project
 img: BingoZoom-1.png
-thumb: thumb02.jpg
+thumb: BingoZoom-thumb01.jpg
 carousel:
-- BingoZoom-1.png
-- single02.jpg
-- single03.jpg
+- BingoZoom-single1.jpg
+- BingoZoom-single2.jpg
+- BingoZoom-single3.jpg
 client: Bingo Zoom
 website: http://bingo-zoom.com/online-games/
 ---

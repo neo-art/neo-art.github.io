@@ -6,16 +6,17 @@ author: Bestbg
 categories:
 - project
 img: FINDHOTEL-1.png
-thumb: thumb02.jpg
+thumb: FindHotel-thumb01.jpg
 carousel:
-- FINDHOTEL-1.png
-- single02.jpg
-- single03.jpg
+- FindHotel-single1.jpg
+- FindHotel-single1.jpg
+- FindHotel-single1.jpg
 client: Find Hotel
 website: http://findhotel.info/
 ---
-####Find Hotel
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+####Find Hotel - Worldwide Hotel Reservation Service
+Global Discount Hotel Reservations. Prepaid hotel and vacation rental reservations are guaranteed to be the lowest rate you can find.
 
 ####Services Provided
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Site Speed Optimization\\
+Web Site Design
