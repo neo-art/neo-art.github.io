@@ -9,8 +9,8 @@ img: FINDHOTEL-1.png
 thumb: FindHotel-thumb01.jpg
 carousel:
 - FindHotel-single1.jpg
-- FindHotel-single1.jpg
-- FindHotel-single1.jpg
+- FindHotel-single2.jpg
+- FindHotel-single3.jpg
 client: Find Hotel
 website: http://findhotel.info/
 ---
