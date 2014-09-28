@@ -49,4 +49,5 @@ testimonial:
 
 # GEMS enabled.
 gems:
+  - jekyll-redirect-from
   - jekyll-sitemap
