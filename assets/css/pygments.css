@@ -19,7 +19,8 @@
 /* from https://github.com/aahan/pygments-github-style */
 
 .highlight .hll { background-color: #49483e }
-.highlight  { background: #272822; color: #f8f8f2 }
+.highlight  { background: #333333; color: #f8f8f2 }
+.highlight .lineno { background: #222!important; padding: 0 5px; margin: 0; border-right-width: 1px!important; border-right-color: #555!important; border-right-style: solid!important; font-size: 14px; font-weight: bold; color: #898989 } /* Line Numbers */
 .highlight .c { color: #75715e } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
 .highlight .k { color: #66d9ef } /* Keyword */

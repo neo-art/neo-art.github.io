@@ -15,7 +15,7 @@ Monetizing Your Ghost blog with [**Infolinks**](http://bit.ly/1c5aN2i) is a very
 I used **Infolinks** for this example because most of my sites convert better with them but you can use the same method to integrate Google AdSense.
 
 So let's start... If you still don't have an account with infolinks follow the link and sign up for their publishers program : [**www.infolinks.com**](http://bit.ly/1c5aN2i).
-The approval process usually takes not more than 24 hours. After receiving an email confirmation that your account has been approved login in your Infolinks account and visit the dashboard. Check if you need to amend your account or website data (add a new website if you need to) and go to "**Integrate**" tab.<br />
+The approval process usually takes not more than 24 hours. After receiving an email confirmation that your account has been approved login in your Infolinks account and visit the dashboard. Check if you need to amend your account or website data (add a new website if you need to) and go to "**Integrate**" tab.<br /> <!--more-->
 Next "**Choose a website**" from the drop down menu (*choose your Ghost website*) and "**Choose your platform**". In our case we are going to choose "**JavaScript
 (Any Platform)**".
 Copy the code provided in your editor or just in Notepad.
@@ -30,7 +30,7 @@ ad_height = "60";
 
 Next go to your **Ghost installation** and find your active theme folder. In this example I used the default
 Ghost theme "*Casper*". The files of the theme are located in
-{% highlight html %}
+{% highlight html linenos %}
 your_ghost_install/content/themes/casper
 {% endhighlight %}
 
