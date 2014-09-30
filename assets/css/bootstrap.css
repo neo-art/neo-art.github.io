@@ -695,7 +695,7 @@ samp {
 code {
   padding: 2px 4px;
   font-size: 90%;
-  color: #c7254e;
+  color: #E8A50C;
   white-space: nowrap;
   background-color: #f9f2f4;
   border-radius: 4px;
@@ -710,7 +710,7 @@ kbd {
 }
 pre {
   display: block;
-  padding: 1px;
+  padding: 0;
   margin: 0 0 10px;
   font-size: 13px;
   line-height: 1.42857143;
