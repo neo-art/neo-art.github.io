@@ -1,31 +1,44 @@
 ---
 layout: post
-title: "Logo design contest starts now"
-date: 2014-04-25 16:54:46
-author: Admin
+title: "Monetizing your Ghost blog"
+date: 2013-11-25 01:22:46
+author: Bestbg
 categories:
 - blog
-- Tips&Tricks
-- Code-Snippets
+- Ghost Blogging
 img: post03.jpg
 thumb: thumb03.jpg
 ---
+<center><a target="_blank" href="http://www.exoclick.com/?login=artv" rel="nofollow" title="Monetize All your traffic"><img src="http://www.exoclick.com/banners/468x60.gif" border="0" width="468" height="60" alt="Monetize All your traffic"></a></center>
 
-<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+Monetizing Your Ghost blog with [**Infolinks**](http://bit.ly/1c5aN2i) is a very simple process that takes no more than 2 minutes.
+I used **Infolinks** for this example because most of my sites convert better with them but you can use the same method to integrate Google AdSense.
 
-It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <!--more-->
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+So let's start... If you still don't have an account with infolinks follow the link and sign up for their publishers program : [**www.infolinks.com**](http://bit.ly/1c5aN2i).
+The approval process usually takes not more than 24 hours. After receiving an email confirmation that your account has been approved login in your Infolinks account and visit the dashboard. Check if you need to amend your account or website data (add a new website if you need to) and go to "**Integrate**" tab.<br />
+Next "**Choose a website**" from the drop down menu (*choose your Ghost website*) and "**Choose your platform**". In our case we are going to choose "**JavaScript
+(Any Platform)**".
+Copy the code provided in your editor or just in Notepad.
 
-Contrary to popular belief, <b>Lorem Ipsum is not simply random text</b>. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at [Hampden-Sydney College][hampden] in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.<
+<center><script type="text/javascript">
+ad_idzone = "1089632";
+ad_width = "468";
+ad_height = "60";
+</script>
+<script type="text/javascript" src="https://ads.exoclick.com/ads.js"></script>
+<noscript><a href="http://main.exoclick.com/img-click.php?idzone=1089632" target="_blank"><img src="https://syndication.exoclick.com/ads-iframe-display.php?idzone=1089632&output=img&type=468x60" width="468" height="60"></a></noscript></center>
 
-Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Next go to your **Ghost installation** and find your active theme folder. In this example I used the default
+Ghost theme "*Casper*". The files of the theme are located in
+```html
+your_ghost_install/content/themes/casper
+```
 
-####Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+Open the file `default.hbs` and scroll down to find the `</body>` tag.
+Paste the **Infolinks javascript code** just before the `</body>` tag.
+Save and re-upload (if you are using FTP) the `default.hbs` to your **active theme folder**.
+**Restart Ghost** to make sure that the change is live and you are done. Your [**Infolinks ads**](http://bit.ly/1c5aN2i) should appear on your blog almost immediately and your blog can start earning some money.
 
+Hope you find this post useful and please leave a comment if you have any questions or simply want to add something.
 
->Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-
-[hampden]: https://github.com/jekyll/jekyll
+Enjoy blogging with **Ghost** and check here for future posts that will help improve your Ghost experience and for more ways to monetize your blog as well.
