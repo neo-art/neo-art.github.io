@@ -6,6 +6,7 @@ author: Bestbg
 categories:
 - blog
 - Ghost Blogging
+- wordpress
 img: Monetizing-your-Ghost-blog.jpg
 thumb: Monetizing-your-Ghost-blog-thumb.jpg
 tags: [ghost-ads, adsense, ghost, infolinks, monetize]
