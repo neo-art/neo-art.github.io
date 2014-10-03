@@ -6,7 +6,7 @@ author: Admin
 categories: 
 - blog 
 - Wordpress
-- Photoshop
+- technical-tutorials
 img: post01.jpg
 thumb: thumb01.jpg
 ---
