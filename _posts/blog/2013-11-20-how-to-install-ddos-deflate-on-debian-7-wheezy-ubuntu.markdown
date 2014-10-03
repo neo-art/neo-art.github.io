@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "Time to change your apps"
-date: 2014-04-25 16:54:46
+title: "How to install (D)DoS Deflate on Debian 7 (Wheezy) / Ubuntu"
+date: 2014-11-20 16:54:46
 author: Admin
 categories: 
 - blog 
-- Wordpress
 - technical-tutorials
 img: post01.jpg
 thumb: thumb01.jpg

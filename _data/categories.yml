@@ -1,7 +1,11 @@
 - slug: wordpress
-  name: Wordpress
+  name: wordpress
   color: '#3498db'
 
 - slug: ghost-blog
-  name: Ghost Blogging
+  name: ghost-blog
+  color: '#3498db'
+
+- slug: technical-tutorials
+  name: technical-tutorials
   color: '#3498db'

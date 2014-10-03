@@ -5,11 +5,11 @@ date: 2013-11-25 01:22:46
 author: Bestbg
 categories:
 - blog
-- Ghost Blogging
-- wordpress
+- Ghost-Blog
+- Wordpress
 img: Monetizing-your-Ghost-blog.jpg
 thumb: Monetizing-your-Ghost-blog-thumb.jpg
-tags: [ghost-ads, adsense, ghost, infolinks, monetize]
+tags: [ghost, adsense, ghost, infolinks, monetize]
 ---
 <center><a target="_blank" href="http://www.exoclick.com/?login=artv" rel="nofollow" title="Monetize All your traffic"><img src="http://www.exoclick.com/banners/468x60.gif" border="0" width="468" height="60" alt="Monetize All your traffic"></a></center>
 
