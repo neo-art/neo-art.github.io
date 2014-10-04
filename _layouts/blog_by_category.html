@@ -2,19 +2,22 @@
 layout: default
 ---
 
-<header id="post-header">
-    <h1 id="post-title">{{ page.category }}</h1>
-    <h4 id="post-subtitle">Articles by category</h4>
-</header>
+<div id="blue">
+    <div class="container">
+        <div class="row">
+            <h3>Articles by category: <strong>{{ page.category }}</strong></h3>
+        </div><!-- /row -->
+    </div> <!-- /container -->
+</div><!-- /blue -->
 
-<div id="post-content">
+<div class="container mtb">
     {% if site.categories[page.category] %}
         {% for post in site.categories[page.category] %}
             {% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
             {% if forloop.first %}
                 <h3>{{ post_year }}</h3><div class="list-group">
             {% endif %}
-			
+
             {% if forloop.first == false %}
                 {% assign previous_index = forloop.index0 | minus: 1 %}
                 {% capture previous_post_year %}{{ site.categories[page.category][previous_index].date | date: '%Y' }}{% endcapture %}
@@ -22,8 +25,8 @@ layout: default
                     </div><h3>{{ post_year }}</h3><div class="list-group">
                 {% endif %}
             {% endif %}
-			
-            <a href="{{ post.url }}/" class="list-group-item">
+
+            <a href="{{ post.url }}" class="list-group-item">
                 <h4 class="list-group-item-heading">{{ post.title }}</h4>
             </a>
 
@@ -35,3 +38,14 @@ layout: default
         <p>There are no posts in this category.</p>
     {% endif %}
 </div>
+
+<div id="r">
+    <div class="container">
+        <div class="row centered">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h4>PROFESSIONAL WORDPRESS SERVICES</h4>
+                <p>We offer a wide range of WordPress services, including WordPress installation and maintenance, WordPress Speed optimization, WordPress plugins and themes installations, WordPress site transfers and more.</p>
+            </div>
+        </div><!-- row -->
+    </div><!-- container -->
+</div><! -- r wrap -->
