@@ -40,8 +40,8 @@
     <h4>Popular Tags</h4>
     <div class="hline"></div>
     <p>
-        {% for category in site.categories %}{% unless category.first == "blog" or category.first == "project" %}
-            <a class="btn btn-theme" href="{{ category.url }}" role="button">{{ category | first | capitalize }} ({{ category | last | size }})</a>	         
-        {% endunless %}{% endfor %}
+        {% for category in site.tags %}
+            <a class="btn btn-theme" href="/{{ category | first | slugize }}/" role="button">{{ category | first | capitalize }} ({{ category | last | size }})</a>	         
+        {% endfor %}
     </p>
 </div>

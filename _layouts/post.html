@@ -45,14 +45,25 @@ layout: default
             {% assign tags_content = '' %}
         {% endif %}
 
-        <p id="post-meta">Posted {{ category_content }}{{ tags_content }}</p>
+        <p id="post-meta">Posted: {{ category_content }}{{ tags_content }}</p>
 
             <div class="spacing"></div>
             <h6>SHARE:</h6>
             <p class="share">
-                <a href="https://twitter.com/canexo_com"><i class="fa fa-twitter"></i></a>
-                <a href="https://www.facebook.com/canexo.web"><i class="fa fa-facebook"></i></a>
-                <a href="https://www.google.com/+Canexo_com"><i class="fa fa-google-plus"></i></a>		 		
+<a href="https://twitter.com/share?url=URLENCODED_URL&via=TWITTER_HANDLE&text=TEXT"
+   onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
+   target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i>
+</a>
+
+<a href="https://www.facebook.com/sharer/sharer.php?u=URLENCODED_URL&t=TITLE"
+   onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
+   target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i>
+</a>
+
+<a href="https://plus.google.com/share?url=URLENCODED_URL"
+   onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=350,width=480');return false;"
+   target="_blank" title="Share on Google+"><i class="fa fa-google-plus"></i>
+</a>	 		
             </p>
         </div><! --/col-lg-8 -->
         
