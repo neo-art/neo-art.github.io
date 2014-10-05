@@ -6,8 +6,8 @@ author: Bestbg
 categories:
 - blog
 - technical-tutorials
-img: post01.jpg
-thumb: thumb01.jpg
+img: DDoS-Deflate.jpg
+thumb: DDoS-Deflate-thumb.jpg
 tags: [ddos-deflate, debian, servers, ubuntu]
 ---
 

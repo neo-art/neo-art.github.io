@@ -6,8 +6,8 @@ author: Bestbg
 categories:
 - blog
 - Ghost-Blog
-img: post02.jpg
-thumb: thumb02.jpg
+img: Free-Themes-for-Ghost.jpg
+thumb: Free-Themes-for-Ghost-thumb.jpg
 tags: [ghost, themes]
 ---
 
