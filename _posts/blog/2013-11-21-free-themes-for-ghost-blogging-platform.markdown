@@ -3,7 +3,7 @@ layout: post
 title: "Free Themes for Ghost blogging platform"
 date: 2013-11-21 16:54:46
 author: Bestbg
-categories: 
+categories:
 - blog
 - Ghost-Blog
 img: post02.jpg
@@ -11,21 +11,41 @@ thumb: thumb02.jpg
 tags: [ghost, themes]
 ---
 
-<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+Although the Ghost blogging platform is relatively new to the blogging scene it's gaining more and more popularity every day.
+I personally find that the default theme "Casper" is enough good for simple blogging but if you are searching for a new look
+there are already many paid and free themes available.
+I would suggest to firstly check the official **[Ghost Marketplace](http://marketplace.ghost.org/)**
+but there are some nice themes that are still not listed there. I have added below a few free themes not listed there, that I personally like:
+<br /> <!--more-->
+**GhostScroll Theme**
 
-It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <!--more-->
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+{<1>}![GhostScroll Theme]({{ site.url }}/assets/img/blog/GhostScroll_scr.png)
 
-Contrary to popular belief, <b>Lorem Ipsum is not simply random text</b>. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at [Hampden-Sydney College][hampden] in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.<
-
-Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-####Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+**[Download GhostScroll Theme](http://ghostscroll.grmmph.com/)**
 
 
->Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+**Ghostentista** - responsive, asynchronous, content-centric and open-source theme
 
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+{<2>}![Ghostentista](/assets/img/blog/Ghostentista_scr.png)
 
-[hampden]: https://github.com/jekyll/jekyll
+**[Download Ghostentista Theme](http://etheeks.com/)**
+
+
+**Ghostium** - A theme focused on content based on Medium
+
+{<3>}![Ghostium](/assets/img/blog/Ghostium_scr.png)
+
+**[Download Ghostium Theme](http://ghostium.oswaldoacauan.com/)**
+
+
+**Ghost Stories** - A Flip Book Theme for Ghost
+
+{<4>}![Ghost Stories](/assets/img/blog/Ghost_Stories_scr.jpg)
+
+**[Ghost Stories Theme Demo](http://ghoststories.themespectre.com/)**
+
+**[Download Ghost Stories Theme](http://themespectre.com/themes/ghost-stories/)**
+
+For more information on how to get started with Ghost themes please visit the official [Ghost website](http://docs.ghost.org/themes/).
+
+Feel free to add your recommendations for free Ghost themes by commenting to this article.
