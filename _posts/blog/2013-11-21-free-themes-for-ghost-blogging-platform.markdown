@@ -19,28 +19,28 @@ but there are some nice themes that are still not listed there. I have added bel
 <br /> <!--more-->
 **GhostScroll Theme**
 
-{<1>}![GhostScroll Theme](/assets/img/blog/GhostScroll-scr.png)
+![GhostScroll Theme](/assets/img/blog/GhostScroll-scr.png)
 
 **[Download GhostScroll Theme](http://ghostscroll.grmmph.com/)**
 
 
 **Ghostentista** - responsive, asynchronous, content-centric and open-source theme
 
-{<2>}![Ghostentista](/assets/img/blog/Ghostentista-scr.png)
+![Ghostentista](/assets/img/blog/Ghostentista-scr.png)
 
 **[Download Ghostentista Theme](http://etheeks.com/)**
 
 
 **Ghostium** - A theme focused on content based on Medium
 
-{<3>}![Ghostium](/assets/img/blog/Ghostium-scr.png)
+![Ghostium](/assets/img/blog/Ghostium-scr.png)
 
 **[Download Ghostium Theme](http://ghostium.oswaldoacauan.com/)**
 
 
 **Ghost Stories** - A Flip Book Theme for Ghost
 
-{<4>}![Ghost Stories](/assets/img/blog/Ghost-Stories-scr.jpg)
+![Ghost Stories](/assets/img/blog/Ghost-Stories-scr.jpg)
 
 **[Ghost Stories Theme Demo](http://ghoststories.themespectre.com/)**
 
