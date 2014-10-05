@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "How to install (D)DoS Deflate on Debian 7 (Wheezy) / Ubuntu"
-date: 2014-11-20 16:54:46
-author: Admin
-categories: 
-- blog 
+date: 2013-11-20 16:54:46
+author: Bestbg
+categories:
+- blog
 - technical-tutorials
 img: post01.jpg
 thumb: thumb01.jpg

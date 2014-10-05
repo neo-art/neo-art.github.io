@@ -11,6 +11,7 @@ layout: default
 </div><!-- /blue -->
 
 <div class="container mtb">
+    <div class="col-lg-8">
     {% if site.categories[page.category] %}
         {% for post in site.categories[page.category] %}
             {% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
@@ -39,6 +40,9 @@ layout: default
     {% endif %}
 </div>
 
+{% include sidebar.html %}
+
+</div><! --/col-lg-8 -->
 <div id="r">
     <div class="container">
         <div class="row centered">

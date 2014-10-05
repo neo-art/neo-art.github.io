@@ -10,8 +10,8 @@ layout: default
     </div> <!-- /container -->
 </div><!-- /blue -->
 
-
 <div class="container mtb">
+    <div class="col-lg-8">
     {% if site.tags[page.tag] %}
         {% for post in site.tags[page.tag] %}
             {% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
@@ -40,6 +40,9 @@ layout: default
     {% endif %}
 </div>
 
+{% include sidebar.html %}
+
+</div><! --/col-lg-8 -->
 <div id="r">
     <div class="container">
         <div class="row centered">
