@@ -2,14 +2,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="We offer a wide range of WordPress services, including WordPress installation and maintenance, WordPress Speed optimization, WordPress site transfers and more.">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="{{ "/assets/ico/favicon.ico" | prepend: site.baseurl }}">
 
     <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+    <meta name="description" content="We offer a wide range of WordPress services, including WordPress installation and maintenance, WordPress Speed optimization, WordPress site transfers and more.">
+    <meta name="author" content="Bestbg">
+
+  {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' }}{% endif %}{% endcapture %}
+    <link rel="canonical" href="{{ canonical }}">
+    <link href="{{ site.url }}/feed.xml" rel="alternate" title="{{site.title}}" type="application/rss+xml">
+    <link rel="shortcut icon" href="{{ "/assets/ico/favicon.ico" | prepend: site.baseurl }}">
 
     <!-- syntax highlighting CSS -->
-    <link href="{{ "/assets/css/pygments.css" | prepend: site.baseurl }}" rel="stylesheet"> 
+    <link href="{{ "/assets/css/pygments.css" | prepend: site.baseurl }}" rel="stylesheet">
 
     <!-- Bootstrap core CSS -->
     <link href="{{ "/assets/css/bootstrap.css" | prepend: site.baseurl }}" rel="stylesheet">
@@ -17,7 +21,7 @@
     <!-- Custom styles for this template -->
     <link href="{{ "/assets/css/style.css" | prepend: site.baseurl }}" rel="stylesheet">
     <link href="{{ "/assets/css/font-awesome.min.css" | prepend: site.baseurl }}" rel="stylesheet">
-    
+
     <!-- Custom CSS -->
     <!--<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">-->
 
