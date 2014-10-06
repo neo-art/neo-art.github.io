@@ -14,7 +14,7 @@ tags: [ghost, themes]
 
 Although the Ghost blogging platform is relatively new to the blogging scene it's gaining more and more popularity every day.
 I personally find that the default theme "Casper" is enough good for simple blogging but if you are searching for a new look
-there are already many paid and free themes available.
+there are already many paid and free themes available.<br /> <!--more-->
 
 <center><script type="text/javascript">
 ad_idzone = "1089632";
@@ -26,7 +26,7 @@ ad_height = "60";
 
 I would suggest to firstly check the official **[Ghost Marketplace](http://marketplace.ghost.org/)**
 but there are some nice themes that are still not listed there. I have added below a few free themes not listed there, that I personally like:
-<br /> <!--more-->
+
 **GhostScroll Theme**
 
 ![GhostScroll Theme](/assets/img/blog/GhostScroll-scr.png)
