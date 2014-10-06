@@ -12,11 +12,23 @@
     <link href="{{ site.url }}/feed.xml" rel="alternate" title="{{site.title}}" type="application/rss+xml">
     <link rel="shortcut icon" href="{{ "/assets/ico/favicon.ico" | prepend: site.baseurl }}">
 
-  <meta name="og:type" content="website" />
-  <meta name="og:site_name" content="{{ site.title }}" />
-  <meta name="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-  <meta name="og:description" content="{{ page.description | strip_html | condense_spaces | truncate:150 }}" />
-  <meta name="og:url" content="{{ site.url }}{{ page.url }}"/>
+    <meta name="og:type" content="website" />
+    <meta name="og:site_name" content="{{ site.title }}" />
+    <meta name="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta name="og:description" content="{{ page.description | strip_html | condense_spaces | truncate:150 }}" />
+    <meta name="og:url" content="{{ site.url }}{{ page.url }}"/>
+    {% for category in page.categories %}
+    <meta property="article:tag" content="{{ category }}" />
+    {% endfor %}
+    {% if page.date %}
+    <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+    <meta content="{{ site.url }}" property="article:author">
+    {% endif %}
+    {% if page.image %}
+    <meta content="{{ site.url }}/assets/img/blog/{{ page.image }}" property="og:image">
+    {% else %}
+    <meta content="{{ site.url }}/assets/img/Media-Card.png" property="og:image">
+    {% endif %}
 
     <!-- syntax highlighting CSS -->
     <link href="{{ "/assets/css/pygments.css" | prepend: site.baseurl }}" rel="stylesheet">
