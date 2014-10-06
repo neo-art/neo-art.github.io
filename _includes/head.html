@@ -1,6 +1,12 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
@@ -11,7 +17,39 @@
     <link rel="canonical" href="{{ canonical }}">
     <link href="{{ site.url }}/feed.xml" rel="alternate" title="{{site.title}}" type="application/rss+xml">
     <link rel="shortcut icon" href="{{ "/assets/ico/favicon.ico" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" href="{{ "/assets/ico/apple-touch-icon.png" | prepend: site.baseurl }}" />
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ "/assets/ico/apple-touch-icon-57x57.png" | prepend: site.baseurl }}" />
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ "/assets/ico/apple-touch-icon-72x72.png" | prepend: site.baseurl }}" />
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ "/assets/ico/apple-touch-icon-76x76.png" | prepend: site.baseurl }}" />
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ "/assets/ico/apple-touch-icon-114x114.png" | prepend: site.baseurl }}" />
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ "/assets/ico/apple-touch-icon-120x120.png" | prepend: site.baseurl }}" />
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ "/assets/ico/apple-touch-icon-144x144.png" | prepend: site.baseurl }}" />
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ "/assets/ico/apple-touch-icon-152x152.png" | prepend: site.baseurl }}" />
 
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@canexo_com">
+    <meta name="twitter:creator" content="@canexo_com">
+    {% if page.title %}
+    <meta name="twitter:title" content="{{ page.title }}">
+    {% else %}
+    <meta name="twitter:title" content="{{ site.title }}">
+    {% endif %}
+    {% if page.url %}
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+    {% endif %}
+    {% if page.description %}
+    <meta name="twitter:description" content="{{ page.description }}">
+    {% else %}
+    <meta name="twitter:description" content="{{ site.description }}">
+    {% endif %}
+    {% if page.image %}
+    <meta name="twitter:image:src" content="{{ site.url }}/assets/img/blog/{{ page.image }}">
+    {% else %}
+    <meta name="twitter:image:src" content="{{ site.url }}/assets/img/Media-Card.png">
+    {% endif %}
+
+    <!-- Open Graph data -->
     <meta name="og:type" content="website" />
     <meta name="og:site_name" content="{{ site.title }}" />
     <meta name="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
@@ -29,6 +67,7 @@
     {% else %}
     <meta content="{{ site.url }}/assets/img/Media-Card.png" property="og:image">
     {% endif %}
+    <meta property="fb:admins" content="611311585565226" />
 
     <!-- syntax highlighting CSS -->
     <link href="{{ "/assets/css/pygments.css" | prepend: site.baseurl }}" rel="stylesheet">
