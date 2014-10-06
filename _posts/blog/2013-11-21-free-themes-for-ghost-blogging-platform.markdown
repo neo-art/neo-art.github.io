@@ -15,6 +15,15 @@ tags: [ghost, themes]
 Although the Ghost blogging platform is relatively new to the blogging scene it's gaining more and more popularity every day.
 I personally find that the default theme "Casper" is enough good for simple blogging but if you are searching for a new look
 there are already many paid and free themes available.
+
+<center><script type="text/javascript">
+ad_idzone = "1089632";
+ad_width = "468";
+ad_height = "60";
+</script>
+<script type="text/javascript" src="https://ads.exoclick.com/ads.js"></script>
+<noscript><a href="http://main.exoclick.com/img-click.php?idzone=1089632" target="_blank"><img src="https://syndication.exoclick.com/ads-iframe-display.php?idzone=1089632&output=img&type=468x60" width="468" height="60"></a></noscript></center>
+
 I would suggest to firstly check the official **[Ghost Marketplace](http://marketplace.ghost.org/)**
 but there are some nice themes that are still not listed there. I have added below a few free themes not listed there, that I personally like:
 <br /> <!--more-->
@@ -31,6 +40,13 @@ but there are some nice themes that are still not listed there. I have added bel
 
 **[Download Ghostentista Theme](http://etheeks.com/)**
 
+<center><script type="text/javascript">
+ad_idzone = "1089632";
+ad_width = "468";
+ad_height = "60";
+</script>
+<script type="text/javascript" src="https://ads.exoclick.com/ads.js"></script>
+<noscript><a href="http://main.exoclick.com/img-click.php?idzone=1089632" target="_blank"><img src="https://syndication.exoclick.com/ads-iframe-display.php?idzone=1089632&output=img&type=468x60" width="468" height="60"></a></noscript></center>
 
 **Ghostium** - A theme focused on content based on Medium
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to install (D)DoS Deflate on Debian 7 (Wheezy) / Ubuntu"
-description: Installing (D)DoS Deflate on Debian 7 (Wheezy) / Ubuntu on Linux server (or VPS)
+description: Installing (D)DoS Deflate on Debian 7 (Wheezy) / Ubuntu on Linux server (or VPS). How I managed to install and configure it successfully on my machine.
 date: 2013-11-20 16:54:46
 author: Bestbg
 categories:
@@ -12,21 +12,130 @@ thumb: DDoS-Deflate-thumb.jpg
 tags: [ddos-deflate, debian, servers, ubuntu]
 ---
 
-<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+There are many guides about how to install **(D)DoS Deflate** on Linux server (or VPS) and in most cases there shouldn't be a problem with it but I faced some small issues installing (D)DoS Deflate on **Debian 7 (Wheezy)** so I decided to share how I managed to install and configure it successfully on my machine.
+I guess the same fix (see below) would work on Ubuntu as well.
 
-It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <!--more-->
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Install (D)DoS Deflate the way it is advised on their [**official website**](http://deflate.medialayer.com/) or follow these steps:
+<br /> <!--more-->
+{% highlight html linenos %}
+cd /usr/local/src/
+sudo mkdir ddos
 
-Contrary to popular belief, <b>Lorem Ipsum is not simply random text</b>. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at [Hampden-Sydney College][hampden] in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.<
+cd ddos
 
-Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+sudo wget http://www.inetbase.com/scripts/ddos/install.sh
 
-####Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+sudo sh install.sh
+{% endhighlight %}
+(* If you have root access you don't need to use sudo)
 
+<center><script type="text/javascript">
+ad_idzone = "1089632";
+ad_width = "468";
+ad_height = "60";
+</script>
+<script type="text/javascript" src="https://ads.exoclick.com/ads.js"></script>
+<noscript><a href="http://main.exoclick.com/img-click.php?idzone=1089632" target="_blank"><img src="https://syndication.exoclick.com/ads-iframe-display.php?idzone=1089632&output=img&type=468x60" width="468" height="60"></a></noscript></center>
 
->Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+When the installation is done you will see something like this:
 
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+When the installation is done you will see something like this:
+{% highlight html linenos %}
+Installation has completed. Config file is at /usr/local/ddos/ddos.conf
+Please send in your comments and/or suggestions to email@vsnl.com
+{% endhighlight %}
 
-[hampden]: https://github.com/jekyll/jekyll
+Edit the configuration file depending on your requirements:
+{% highlight html linenos %}
+sudo nano /usr/local/ddos/ddos.conf
+{% endhighlight %}
+
+You may also want to **white list** your IP address:
+{% highlight html linenos %}
+sudo nano /usr/local/ddos/ignore.ip.list
+{% endhighlight %}
+
+Now it is a time to run (D)DoS Deflate:
+{% highlight html linenos %}
+sudo /usr/local/ddos/ddos.sh -c
+{% endhighlight %}
+
+Unfortunately I got this:
+{% highlight html linenos %}
+/usr/local/ddos/ddos.sh: 13: [: /usr/local/ddos/ddos.conf: unexpected operator DDoS-Deflate version 0.6
+Copyright (C) 2005, Zaf email@vsnl.com
+$CONF not found.
+{% endhighlight %}
+
+To fix this **open ddos.sh**:
+{% highlight html linenos %}
+sudo nano /usr/local/ddos/ddos.sh
+{% endhighlight %}
+
+and change the first line of the file from
+{% highlight html linenos %}
+!/bin/sh
+{% endhighlight %}
+to
+{% highlight html linenos %}
+!/bin/bash
+{% endhighlight %}
+
+There are at least two more instances of the same path in ddos.sh, so find them and change to **/bin/bash**
+Save and close *ddos.sh*.
+
+Start the service again:
+{% highlight html linenos %}
+sudo /usr/local/ddos/ddos.sh -c
+{% endhighlight %}
+
+If you get the following error message:
+{% highlight html linenos %}
+crond: unrecognized service
+{% endhighlight %}
+
+Open **ddos.sh** again:
+{% highlight html linenos %}
+sudo nano /usr/local/ddos/ddos.sh
+{% endhighlight %}
+
+Find "**add to cron**" part and change
+_service crond restart_
+to
+_service **cron** restart_
+
+(I found two instances that need to be changed).
+
+Save, exit and start the service again:
+{% highlight html linenos %}
+sudo /usr/local/ddos/ddos.sh -c
+{% endhighlight %}
+
+If you did everything correct you should see the following message:
+{% highlight html linenos %}
+[ ok ] Restarting periodic command scheduler: cron [....] Stopping periodic command scheduler: cron.
+{% endhighlight %}
+
+We are done.
+
+<center><script type="text/javascript">
+ad_idzone = "1089632";
+ad_width = "468";
+ad_height = "60";
+</script>
+<script type="text/javascript" src="https://ads.exoclick.com/ads.js"></script>
+<noscript><a href="http://main.exoclick.com/img-click.php?idzone=1089632" target="_blank"><img src="https://syndication.exoclick.com/ads-iframe-display.php?idzone=1089632&output=img&type=468x60" width="468" height="60"></a></noscript></center>
+
+**Note:** I read in few forums/blogs that there is a bug with (D)DoS Deflate version 6.0 and to fix it you need to open **/usr/local/ddos/ddos.sh** and replace:
+{% highlight html linenos %}
+netstat -ntu | awk '{print $5}' | cut -d: -f1 | sort | uniq -c | sort -n
+{% endhighlight %}
+with
+{% highlight html linenos %}
+netstat -ntu | grep ‘:’ | awk ‘{print $5}’ | sed ‘s/::ffff://’ | cut -f1 -d ‘:’ | sort | uniq -c | sort -nr &gt; $BAD_IP_LIST
+{% endhighlight %}
+
+I didn't have possibility to test it so it is up to you to make this change or not.
+
+Hope the article was helpful to some of you.
+If you have something to add or find mistakes please let me know by commenting.
