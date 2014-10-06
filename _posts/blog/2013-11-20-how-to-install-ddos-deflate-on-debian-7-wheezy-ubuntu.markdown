@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to install (D)DoS Deflate on Debian 7 (Wheezy) / Ubuntu"
+description: Installing (D)DoS Deflate on Debian 7 (Wheezy) / Ubuntu on Linux server (or VPS)
 date: 2013-11-20 16:54:46
 author: Bestbg
 categories:

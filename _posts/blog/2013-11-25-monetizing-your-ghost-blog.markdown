@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Monetizing your Ghost blog"
+description: Monetizing Your Ghost blog with Infolinks is a very simple process that takes no more than 2 minutes. I used Infolinks for this example because most of ...
 date: 2013-11-25 01:22:46
 author: Bestbg
 categories:

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Free Themes for Ghost blogging platform"
+description: My choice of Free Themes for Ghost blogging platform. I have added a few free themes not listed on Ghost Marketplace, that I personally like
 date: 2013-11-21 16:54:46
 author: Bestbg
 categories:

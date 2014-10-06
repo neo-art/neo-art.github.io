@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
-    <meta name="description" content="We offer a wide range of WordPress services, including WordPress installation and maintenance, WordPress Speed optimization, WordPress site transfers and more.">
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="Bestbg">
 
   {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' }}{% endif %}{% endcapture %}
