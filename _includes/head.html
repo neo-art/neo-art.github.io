@@ -12,6 +12,12 @@
     <link href="{{ site.url }}/feed.xml" rel="alternate" title="{{site.title}}" type="application/rss+xml">
     <link rel="shortcut icon" href="{{ "/assets/ico/favicon.ico" | prepend: site.baseurl }}">
 
+  <meta name="og:type" content="website" />
+  <meta name="og:site_name" content="{{ site.title }}" />
+  <meta name="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta name="og:description" content="{{ page.description | strip_html | condense_spaces | truncate:150 }}" />
+  <meta name="og:url" content="{{ site.url }}{{ page.url }}"/>
+
     <!-- syntax highlighting CSS -->
     <link href="{{ "/assets/css/pygments.css" | prepend: site.baseurl }}" rel="stylesheet">
 
@@ -38,7 +44,7 @@
     <style type="text/css">
     #backtotop {
         font-family:Arial, Helvetica, sans-serif;
-        font-size:12px;
+        font-size:15px;
         color:#fafafa;
         border:1px solid #111111;
         border-radius: 8px;

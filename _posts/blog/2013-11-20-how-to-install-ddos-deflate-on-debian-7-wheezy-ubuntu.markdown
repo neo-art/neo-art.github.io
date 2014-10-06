@@ -38,8 +38,6 @@ ad_height = "60";
 <noscript><a href="http://main.exoclick.com/img-click.php?idzone=1089632" target="_blank"><img src="https://syndication.exoclick.com/ads-iframe-display.php?idzone=1089632&output=img&type=468x60" width="468" height="60"></a></noscript></center>
 
 When the installation is done you will see something like this:
-
-When the installation is done you will see something like this:
 {% highlight html linenos %}
 Installation has completed. Config file is at /usr/local/ddos/ddos.conf
 Please send in your comments and/or suggestions to email@vsnl.com
