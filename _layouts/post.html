@@ -56,9 +56,11 @@ layout: default
         {% endfor %}</span></p>
 
             <div class="spacing"></div>
-            <h6>SHARE:</h6>
             <p class="share">
-                <div class="addthis_sharing_toolbox"></div>
+                <h6>SHARE:</h6><div class="addthis_sharing_toolbox"></div>
+            </p>
+            <p class="share">
+                {% include disqus.html %}
             </p>
         </div><! --/col-lg-8 -->
 
