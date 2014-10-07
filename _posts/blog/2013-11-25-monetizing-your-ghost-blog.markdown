@@ -35,7 +35,7 @@ ad_height = "60";
 
 Next go to your **Ghost installation** and find your active theme folder. In this example I used the default
 Ghost theme "*Casper*". The files of the theme are located in
-{% highlight html linenos %}
+{% highlight ruby linenos %}
 your_ghost_install/content/themes/casper
 {% endhighlight %}
 
