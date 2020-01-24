@@ -51,4 +51,4 @@ plugins:
   - jekyll-sitemap
 
   # Include underscores derictive
-  include: [_redirects]
+  include: _redirects
