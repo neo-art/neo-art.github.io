@@ -47,7 +47,7 @@ exclude: ["README.markdown", "script", "vendor", "Gemfile", "Gemfile.lock", "Pro
 
 # GEMS enabled (changed to plugins).
 plugins: 
- - jekyll-redirect-from
+# - jekyll-redirect-from
  - jekyll-sitemap
 
   # Include underscores derictive
