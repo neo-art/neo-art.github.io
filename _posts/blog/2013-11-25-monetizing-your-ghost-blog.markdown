@@ -12,7 +12,6 @@ img: Monetizing-your-Ghost-blog.jpg
 thumb: Monetizing-your-Ghost-blog-thumb.jpg
 tags: [ghost, adsense, infolinks, monetize]
 ---
-<center><a target="_blank" href="http://www.exoclick.com/?login=artv" rel="nofollow" title="Monetize All your traffic"><img src="http://www.exoclick.com/banners/468x60.gif" border="0" width="468" height="60" alt="Monetize All your traffic"></a></center>
 
 Monetizing Your Ghost blog with [**Infolinks**](http://bit.ly/1c5aN2i){:rel="nofollow"}{:target="_blank"}{:title="Infolinks"} is a very simple process that takes no more than 2 minutes.
 I used **Infolinks** for this example because most of my sites convert better with them but you can use the same method to integrate Google AdSense.
@@ -25,13 +24,7 @@ Next "**Choose a website**" from the drop down menu (*choose your Ghost website*
 (Any Platform)**".
 Copy the code provided in your editor or just in Notepad.
 
-<center><script type="text/javascript">
-ad_idzone = "1089632";
-ad_width = "468";
-ad_height = "60";
-</script>
-<script type="text/javascript" src="https://ads.exoclick.com/ads.js"></script>
-<noscript><a href="http://main.exoclick.com/img-click.php?idzone=1089632" target="_blank"><img src="https://syndication.exoclick.com/ads-iframe-display.php?idzone=1089632&output=img&type=468x60" width="468" height="60"></a></noscript></center>
+
 
 Next go to your **Ghost installation** and find your active theme folder. In this example I used the default
 Ghost theme "*Casper*". The files of the theme are located in

@@ -29,14 +29,6 @@ sudo sh install.sh
 {% endhighlight %}
 (* If you have root access you don't need to use sudo)
 
-<center><script type="text/javascript">
-ad_idzone = "1089632";
-ad_width = "468";
-ad_height = "60";
-</script>
-<script type="text/javascript" src="https://ads.exoclick.com/ads.js"></script>
-<noscript><a href="http://main.exoclick.com/img-click.php?idzone=1089632" target="_blank"><img src="https://syndication.exoclick.com/ads-iframe-display.php?idzone=1089632&output=img&type=468x60" width="468" height="60"></a></noscript></center>
-
 When the installation is done you will see something like this:
 {% highlight ruby linenos %}
 Installation has completed. Config file is at /usr/local/ddos/ddos.conf
@@ -115,14 +107,6 @@ If you did everything correct you should see the following message:
 {% endhighlight %}
 
 We are done.
-
-<center><script type="text/javascript">
-ad_idzone = "1089632";
-ad_width = "468";
-ad_height = "60";
-</script>
-<script type="text/javascript" src="https://ads.exoclick.com/ads.js"></script>
-<noscript><a href="http://main.exoclick.com/img-click.php?idzone=1089632" target="_blank"><img src="https://syndication.exoclick.com/ads-iframe-display.php?idzone=1089632&output=img&type=468x60" width="468" height="60"></a></noscript></center>
 
 **Note:** I read in few forums/blogs that there is a bug with (D)DoS Deflate version 6.0 and to fix it you need to open **/usr/local/ddos/ddos.sh** and replace:
 {% highlight ruby linenos %}
