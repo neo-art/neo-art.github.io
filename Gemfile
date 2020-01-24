@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem "github-pages", "~> 204", group: :jekyll_plugins
+gem 'github-pages'
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 3.8.5"
