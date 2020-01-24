@@ -14,3 +14,11 @@
   to = "https://bestbg.com/:splat"
   status = 301
   force = true
+
+# Headers #
+
+[[headers]]
+for = "/*"
+[headers.values]
+X-Frame-Options = "sameorigin"
+X-XSS-Protection = "1; mode=block"
