@@ -45,8 +45,8 @@ clients:
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: ["README.markdown", "script", "vendor", "Gemfile", "Gemfile.lock", "Procfile", "Rakefile", "readme.md", "scss", "node_modules"]
 
-# GEMS enabled.
-gems:
+# GEMS enabled (changed to plugins).
+plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
 
