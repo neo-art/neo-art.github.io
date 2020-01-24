@@ -5,7 +5,7 @@
 [build.environment]
   JEKYLL_ENV = "production"
 
-  #####################
+#####################
 #  Redirect Rules   #
 #####################
 [[redirects]]
@@ -13,4 +13,4 @@
   from = "https://bestbg.netlify.com/*"
   to = "https://bestbg.com/:splat"
   status = 301
-  force = false
+  force = true
