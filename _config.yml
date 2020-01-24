@@ -46,9 +46,9 @@ clients:
 exclude: ["README.markdown", "script", "vendor", "Gemfile", "Gemfile.lock", "Procfile", "Rakefile", "readme.md", "scss", "node_modules"]
 
 # GEMS enabled (changed to plugins).
- plugins: 
- - jekyll-redirect-from
- - jekyll-sitemap
+# plugins: 
+# - jekyll-redirect-from
+# - jekyll-sitemap
 
   # Include underscores derictive
   # include: [_redirects]
