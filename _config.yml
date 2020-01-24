@@ -51,4 +51,4 @@ exclude: ["README.markdown", "script", "vendor", "Gemfile", "Gemfile.lock", "Pro
 # - jekyll-sitemap
 
   # Include underscores derictive
-  include: [_redirects]
+  # include: [_redirects]
