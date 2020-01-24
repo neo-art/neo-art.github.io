@@ -4,7 +4,7 @@
 title: Bestbg
 description: "We offer a wide range of WordPress services, including WordPress installation and maintenance, WordPress Speed optimization, WordPress site transfers and more."
 baseurl: "" #important: start with /
-url: "http://bestbg.com"
+url: "https://bestbg.com"
 
 # Build settings
 markdown: kramdown
@@ -49,3 +49,6 @@ exclude: ["README.markdown", "script", "vendor", "Gemfile", "Gemfile.lock", "Pro
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
+
+  # Include underscores derictive
+  include: [_redirects]
