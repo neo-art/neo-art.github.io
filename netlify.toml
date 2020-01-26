@@ -20,7 +20,15 @@
 [[headers]]
 for = "/*"
 [headers.values]
+cache-control = "public,max-age=60"
 X-Frame-Options = "sameorigin"
 X-XSS-Protection = "1; mode=block"
 X-Content-Type-Options = "nosniff"
-Referrer-Policy = "no-referrer-when-downgrade" 
+Referrer-Policy = "no-referrer-when-downgrade"
+Feature-Policy = "camera 'none'; geolocation 'none'; microphone 'none'"
+
+[[headers]]
+  # Override cache duration for assets with periods in the filename (i.e. static assets)
+  for = "/*.*"
+    [headers.values]
+    cache-control = "public,max-age=360000"
