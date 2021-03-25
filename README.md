@@ -1,6 +1,6 @@
-# Bestbg.com Website and Blog
+# Website and Blog
 
-You can view this website at [bestbg.com](http://bestbg.com/)
+You can view this website
 
 ## License
 
